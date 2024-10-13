@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-item {
+    margin: 10px;
+}
+
+.image-item img {
+    max-width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
